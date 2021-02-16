@@ -1,9 +1,10 @@
 
   <template>
   <v-app id="clingo">
+    <v-container>
    <nav-bar></nav-bar>
    <router-view></router-view>
-  
+    </v-container>
   </v-app>
 </template>
 
