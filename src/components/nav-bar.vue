@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar flat class="grey" max-width="100%" height="100px">
+  <v-app-bar flat class="primary darken-2">
       <router-link :to="{ name: 'Home' }"><v-btn dark class="mx-2">Home</v-btn></router-link>
       <v-spacer></v-spacer>
       <router-link :to="{ name: 'About' }"><v-btn dark class="mx-2 ">About Me</v-btn></router-link>

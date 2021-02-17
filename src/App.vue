@@ -1,10 +1,13 @@
 
   <template>
   <v-app id="clingo">
+   <v-app-bar><nav-bar app></nav-bar></v-app-bar>
+    <v-main>
     <v-container>
-   <nav-bar></nav-bar>
+
    <router-view></router-view>
     </v-container>
+    </v-main>
   </v-app>
 </template>
 
@@ -17,6 +20,17 @@ import navBar from './components/nav-bar.vue';
  
   }
 </script>
+
+<style>
+@font-face {
+  font-family: "Orbitron";
+  src: local("Orbitron"),
+    url(./assets/Orbitron-VariableFont_wght.ttf) format("truetype");
+}
+h1, h2, h3, h4 {
+  font-family: "Orbitron", sans-serif ;
+}
+</style>
 
 
 

@@ -1,19 +1,19 @@
 <template>
   <div>
       <v-card
-  class="mx-auto blue darken-3"
+  class="mx-auto my-10 blue darken-3"
   max-width="400"
   v-for="project in projects"
   :key="project.name"
   >
-  <v-card-title class="display-2 grey--text text--darken-3">{{ project.name }}</v-card-title>
+  <v-card-title  class="display-1 green--text text--lighten-1"><h3>{{ project.name }}</h3></v-card-title>
   <v-card-text>
       <p class="subheading white--text">{{ project.overview }}</p>
   </v-card-text>
   <v-card-actions>
       <v-btn
       text
-      color="red accent-4"
+      color="accent"
       @click="reveal = true"
       >
       Learn More
@@ -27,15 +27,15 @@
       style="height: 100%;"
       >
       <v-card-text class="pb-0">
-          <p class="subheading font-weight-bold text--primary">
+          <p class="subheading font-weight-bold">
               status: {{ project.status }}
           </p>
-          <p>{{ project.details }}</p>
+          <p class="px-2 text--secondary">{{ project.details }}</p>
       </v-card-text>
       <v-card-actions class="pt-0">
           <v-btn
           text
-          color="teal accent-4"
+          color="black accent-4"
           @click="reveal = false"
           >
           Close

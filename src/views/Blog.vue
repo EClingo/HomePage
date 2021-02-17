@@ -1,5 +1,5 @@
 <template>
-  <h1>Blog view</h1>
+  <h1 class="green--text text--darken-2">Blog view</h1>
 </template>
 
 <script>
