@@ -57,7 +57,7 @@ export default new Vuex.Store({
     {
       name: 'Visual Studio Code',
       type: 'Development Software',
-      icon: 'mdi-iframe'
+      icon: 'mdi-microsoft-visual-studio-code'
 
     },
     {
@@ -69,33 +69,66 @@ export default new Vuex.Store({
       name: 'Vuetify',
       type: 'Web Development',
       icon: 'mdi-vuetify',
-    }
+    },
+    {  
+      name: 'NodeJs',
+      type: 'Web Development',
+      icon: 'mdi-nodejs',
+    },
+    {
+      name: 'Git',
+      type: 'Version Control',
+      icon: 'mdi-git',
+    },
+    {
+      name: 'Github',
+      type: 'Version Control',
+      icon: 'mdi-github',
+    },
+    {
+      name: 'BitBucket',
+      type: 'Version Control',
+      icon: 'mdi-bitbucket',
+    },
+
       
   ],
-  WorkExperience: [
+  LearningTech: [
+    {
+      name: 'Ubuntu',
+      type: 'Operating System',
+      icon: 'mdi-ubuntu'
+    },
+    {
+      name: 'php',
+      type: 'Object Oriented Programming',
+      icon: 'mdi-language-php'
+    }
+  ],
+  workExperience: [
     {
       title: 'Service Technician',
       company: 'Multiflow Dispensers of Ohio',
       skills: [
-        'Troubleshooting',
-        'Communication',
-        'Mechanical Aptitude',
-        'Teamwork',
+        'Troubleshooting ',
+        'Communication ',
+        'Mechanical Aptitude ',
+        'Teamwork ',
       ],
     },
     {
       title: 'Owner',
       company: 'Humblebee Family Farm',
       skills: [
-        'Customer Service',
-        'Marketing',
-        'Animal Husbandry',
-        'Resource Management',
-        'Product Development'
+        'Customer Service ',
+        'Marketing ',
+        'Animal Husbandry ',
+        'Resource Management ',
+        'Product Development '
       ],
     },
   ],
-  Education: [
+  education: [
     {
       name: 'Tech Elevator',
       major: 'Full Stack Software Development',
@@ -105,15 +138,38 @@ export default new Vuex.Store({
       name: 'Hocking College',
       major: 'Ecotourism and Adventure Travel',
       skills: 'Leadership, Team Facilitation, Planning and Implementing Adventures',
+    },
+    {
+      name: 'Udemy',
+      major: 'Software Develpment',
+      skills: 'Vue Mastery, Nuxt.js, Penetration Testing, Front End Design',
     }
   ],
-  Hobbies: [
-    'arduino',
-    'hiking',
-    'scuba',
-    'fine dining',
-    'wood working',
-    'gardening',
+  hobbies: [
+    {
+    name: 'arduino',
+    icon: '',
+    },
+    {
+      name: 'hiking',
+      icon: 'mdi-hiking',
+    },
+    {
+      name: 'scuba',
+      icon: 'mdi-diving-scuba-flag',
+    },
+    {
+      name: 'fine dining',
+      icon: 'mdi-silverware-variant',
+    },
+    {
+      name: 'wood working',
+      icon: '',
+    },
+    {
+      name: 'gardening',
+      icon: 'mdi-shovel',
+    },
   ],
   
   },

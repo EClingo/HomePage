@@ -1,6 +1,6 @@
 <template>
   <v-card class="blue darken-4 green--text text--lighten-2">
-      <v-card-title><h4>Technical Skills</h4></v-card-title>
+      <v-card-title><h4>Technical Skills and Tools</h4></v-card-title>
   <v-list class="blue darken -2 ">
       <v-list-item
       class="blue darken-2" 

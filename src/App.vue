@@ -29,6 +29,7 @@ import navBar from './components/nav-bar.vue';
 }
 h1, h2, h3, h4 {
   font-family: "Orbitron", sans-serif ;
+  color: rgb(31, 221, 31);
 }
 </style>
 
