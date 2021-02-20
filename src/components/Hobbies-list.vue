@@ -8,7 +8,7 @@
           :key="hobby.name"
           class="pl-6"
           >
-          {{ hobby.name }} <v-icon>{{ hobby.icon }}</v-icon>
+          <span>{{ hobby.name }} <v-icon class="pl-3 blue--text text--darken-4">{{ hobby.icon }}</v-icon></span>
           </v-list-item-content>
           
       </v-list>

@@ -12,7 +12,8 @@ export default new Vuex.Store({
       startDate: 'Jan 2021',
       status: 'ongoing',
       version: '2.0',
-      details: 'This page is created using Vue.js and operates as a Single Page Application. All of the data and components are reactive.'
+      details: 'This page is created using Vue.js and operates as a Single Page Application. All of the data and components are reactive.',
+      reveal: false,
     },
     {
       name: 'Meal Planner',
@@ -20,8 +21,28 @@ export default new Vuex.Store({
       startDate: 'Jan 2021',
       status: 'ongoing',
       version: '1.0',
-      details: 'A culmination of what I learned at Tech Elevator. The backend is written in Java, using a PostgreSQL relational database and a Vue application on the front end. Axios is used on the front end to access an API of recipies.'
+      details: 'A culmination of what I learned at Tech Elevator. The backend is written in Java, using a PostgreSQL relational database and a Vue application on the front end. Axios is used on the front end to access an API of recipies.',
+      reveal: false,
     },
+    {
+      name: 'Deck of Cards',
+      overview: 'API and Vue project',
+      startDate: 'Feb 2021',
+      status: 'ongoing',
+      version: 'In Development',
+      details: 'This side project is an exercise in using an external API calls to operate as the backend, While displaying card images and tracking data in memory using the Vuex store.',
+      reveal: false,
+    },
+    {
+      name: 'Vending Machince CLI',
+      overview: 'Module 1 Java capstone project',
+      startDate: 'Nov 2020',
+      status: 'completed',
+      version: '1.0',
+      details: 'The capstone project for the Java module at Tech Elevator. This project demonstrates an understanding of the basics of Object Oriented programming. It reads inventory from a file and tracks a users purchases and inventory, tracking everything to a log file.',
+      reveal: false,
+    },
+
   ],
   techSkills:[
     {
@@ -147,8 +168,12 @@ export default new Vuex.Store({
   ],
   hobbies: [
     {
+      name: 'music',
+      icon: 'mdi-music',
+    },
+    {
     name: 'arduino',
-    icon: '',
+    icon: 'mdi-robot',
     },
     {
       name: 'hiking',
@@ -164,7 +189,7 @@ export default new Vuex.Store({
     },
     {
       name: 'wood working',
-      icon: '',
+      icon: 'mdi-hand-saw',
     },
     {
       name: 'gardening',

@@ -1,12 +1,12 @@
 <template>
   <div>
       <v-card
-  class="mx-auto my-10 blue darken-3"
-  max-width="400"
+  class="mx-5 my-10 blue darken-3"
+  
   v-for="project in projects"
   :key="project.name"
   >
-  <v-card-title  class="display-1 green--text text--lighten-1"><h3>{{ project.name }}</h3></v-card-title>
+  <v-card-title  class="text-no-wrap display-1 green--text text--lighten-1"><h3>{{ project.name }}</h3></v-card-title>
   <v-card-text>
       <p class="subheading white--text">{{ project.overview }}</p>
   </v-card-text>
@@ -14,7 +14,7 @@
       <v-btn
       text
       color="accent"
-      @click="reveal = true"
+      @click="project.reveal = true"
       >
       Learn More
       </v-btn>
@@ -22,9 +22,9 @@
 
   <v-expand-transition>
       <v-card
-      v-if="reveal"
+      v-if="project.reveal"
       class="transition-fast-in-fast-out v-card--reveal blue "
-      style="height: 100%;"
+      
       >
       <v-card-text class="pb-0">
           <p class="subheading font-weight-bold">
@@ -36,7 +36,7 @@
           <v-btn
           text
           color="black accent-4"
-          @click="reveal = false"
+          @click="project.reveal = false"
           >
           Close
           </v-btn>
@@ -56,7 +56,8 @@ export default {
     }),
     created(){
         this.projects = this.$store.state.projects;
-    }
+    },
+   
 
 }
 </script>
