@@ -1,6 +1,6 @@
 <template>
   
-  <v-app-bar flat class="primary darken-2">
+  <v-app-bar flat class="mr-2 primary darken-2">
     <v-container>
       <v-row >
         

@@ -6,7 +6,7 @@
   v-for="project in projects"
   :key="project.name"
   >
-  <v-card-title  class="text-no-wrap display-1 green--text text--lighten-1"><h3>{{ project.name }}</h3></v-card-title>
+  <v-card-title  class="text-no-wrap display-1 green--text text--lighten-1"><h3 class="text-truncate">{{ project.name }}</h3></v-card-title>
   <v-card-text>
       <p class="subheading white--text">{{ project.overview }}</p>
   </v-card-text>
