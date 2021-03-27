@@ -12,7 +12,7 @@ export default new Vuex.Store({
       startDate: 'Jan 2021',
       status: 'ongoing',
       version: '2.0',
-      details: 'This page is created using Vue.js and operates as a Single Page Application. All of the data and components are reactive.',
+      details: 'This page is created using Vue.js and operates as a Single Page Application.',
       reveal: false,
     },
     {
@@ -21,7 +21,7 @@ export default new Vuex.Store({
       startDate: 'Jan 2021',
       status: 'ongoing',
       version: '1.0',
-      details: 'A culmination of what I learned at Tech Elevator. The backend is written in Java, using a PostgreSQL relational database and a Vue application on the front end. Axios is used on the front end to access an API of recipies.',
+      details: 'A culmination of what I learned at Tech Elevator. The backend is written in Java, using a PostgreSQL relational database and Vue.js on the front end. Axios is used to make calls to an API of recipies.',
       reveal: false,
     },
     {
@@ -111,6 +111,16 @@ export default new Vuex.Store({
       type: 'Version Control',
       icon: 'mdi-bitbucket',
     },
+    {
+      name: 'Postman',
+      type: 'API testing',
+      icon: 'mdi-postman',
+    },
+    {
+      name: 'Figma',
+      type: 'Web Design',
+      icon: 'mdi-figma',
+    },
 
       
   ],
@@ -148,6 +158,29 @@ export default new Vuex.Store({
         'Product Development '
       ],
     },
+    {
+      title: 'Lead Aquarist',
+      company: 'Fishgate Aquarium Services',
+      skills: [
+        'Aquarium Maintainence',
+        'Detailed Diving Logs ',
+        'Animal Husbandry ',
+        'Mechanical Repair ',
+        'Research '
+      ],
+    },
+       {
+      title: 'Owner',
+      company: 'Humblebee Family Farm',
+      skills: [
+        'Customer Service ',
+        'Marketing ',
+        'Animal Husbandry ',
+        'Resource Management ',
+        'Product Development '
+      ],
+    },
+  
   ],
   education: [
     {

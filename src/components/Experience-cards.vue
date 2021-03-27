@@ -4,7 +4,7 @@
         <v-card
         v-for="job in workExperience "
         :key="job.title"
-        class="blue darken-2">
+        class=" my-3 blue darken-2">
         <v-card-title><h3>{{ job.company }}</h3></v-card-title>
         <v-card-subtitle>{{ job.title }}</v-card-subtitle>
         
