@@ -1,7 +1,7 @@
 <template>
   <v-container>
       <v-col>
-      <v-list width="300px" class="blue darken-1">
+      <v-list  class="blue darken-1">
           <v-list-item-title class="px-2"><h4>Hobbies and Interests</h4></v-list-item-title>
           <v-list-item-content
           v-for="hobby in hobbies"

@@ -1,6 +1,6 @@
 <template>
   <v-container>
-      <v-row justify="space-around">
+      
         <v-card
         v-for="job in workExperience "
         :key="job.title"
@@ -17,7 +17,7 @@
         
 
         </v-card>
-      </v-row>
+      
   </v-container>
 </template>
 

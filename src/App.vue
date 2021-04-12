@@ -3,17 +3,26 @@
   <v-app id="clingo">
     
     <v-main>
+    <v-row>
+      <v-col
+      cols="12"
+      md="12"
+      >
     <nav-bar app v-show="$vuetify.breakpoint.mdAndUp"></nav-bar>
-  
-    <v-row>
-      
+      </v-col> 
+      <v-col
+      cols="2"
+      >
       <nav-drawer app v-show="$vuetify.breakpoint.smAndDown"></nav-drawer>
+      </v-col>
    
-    </v-row>
-    
-    <v-row>
    
-   <v-flex class="ml-5" align-self-center><router-view></router-view></v-flex>
+   <v-col
+   cols="10"
+   md="12"
+   justify-center
+   ><router-view class="pr-2"></router-view>
+   </v-col>
    
       
     </v-row>
